@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "SiteCore ID",
+  "description": "This extension will extract the SiteCore ID from SiteCore managed pages",
+  "version": "1.0",
+
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab",
+   "tabs"
+   ]
+}
